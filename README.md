@@ -3,7 +3,7 @@
 
 # API used
 URL:"https://words.dev-apis.com/word-of-the-day?random=1"
- this API is used to fetch random word every time you refresh the webpage
+ this API is used to fetch random word every time you refresh the webpage & Checks if the word entered by user  is valid.
  ### Sample code for fetching the word
 ![Screenshot (8)](https://github.com/Moutasem-Ahmed-Salah/Wordle/assets/125928209/0074e8de-3266-4a9c-9b1a-cdf3ee0d6574)
 
@@ -19,3 +19,6 @@ URL:"https://words.dev-apis.com/word-of-the-day?random=1"
 ![Screenshot (5)](https://github.com/Moutasem-Ahmed-Salah/Wordle/assets/125928209/5ca6e351-5ba9-46e8-8825-c9f9f68d6a4b)
 
 ![Screenshot (6)](https://github.com/Moutasem-Ahmed-Salah/Wordle/assets/125928209/5e6c3e90-84d1-42c9-b8f5-151780377af4)
+### Here you can see I entered an unvalid word so it flashes red
+![Screenshot (13)](https://github.com/Moutasem-Ahmed-Salah/Wordle/assets/125928209/fe153c23-bd55-481d-9acc-727d00494b53)
+
