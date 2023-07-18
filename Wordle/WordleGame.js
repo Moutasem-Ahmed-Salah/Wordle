@@ -3,9 +3,9 @@ const ROUNDS = 6;
 const letters = document.querySelectorAll(".scoreboard-letter");
 const loadingDiv = document.querySelector(".info-bar");
 
-// I like to do an init function so I can use "await"
+
 async function init() {
-    // the state for the app
+    
     let currentRow = 0;
     let currentGuess = "";
     let done = false;
