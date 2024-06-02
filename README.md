@@ -8,9 +8,10 @@ URL:"https://words.dev-apis.com/word-of-the-day?random=1"
 ### * React Js
 # ScreenShots
 ![Screenshot from 2024-06-02 21-25-02](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/391207ff-29a6-4c7b-8d3c-18bde11f2e05)
-
+![Screenshot from 2024-06-02 21-25-58](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/887ab7aa-2bc5-4e31-abc6-42516a552b1e)
 
 ### Here you can see I entered an invalid word so it flashes red
+![Screenshot from 2024-06-02 21-26-16](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/1fb1237d-a00f-410e-98f5-96664d9a950b)
 
 
 
