@@ -158,7 +158,7 @@ const App = () => {
     });
 
     return (
-        <div className="App">
+        <div className="App" onClick={() => inputRef.current.focus()}>
             <header className="navbar">
                 <h1 className="brand">Wordle</h1>
             </header>
