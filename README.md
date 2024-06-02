@@ -13,4 +13,5 @@ URL:"https://words.dev-apis.com/word-of-the-day?random=1"
 ### Here you can see I entered an invalid word so it flashes red
 ![Screenshot from 2024-06-02 21-34-11](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/9defa2be-c6a9-406c-93b0-31eb4791f9ac)
 ## To run the project run npm run start in the terminal or just open the websote from vercel link given below
+https://wordle-two-gray.vercel.app/
 
