@@ -12,7 +12,4 @@ URL:"https://words.dev-apis.com/word-of-the-day?random=1"
 
 ### Here you can see I entered an invalid word so it flashes red
 ![Screenshot from 2024-06-02 21-26-16](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/1fb1237d-a00f-410e-98f5-96664d9a950b)
-
-
-
-## TO run the project run npm run start in the terminal
+## To run the project run npm run start in the terminal
