@@ -1,4 +1,4 @@
-![image](https://github.com/Moutasem-Ahmed-Salah/Wordle/assets/125928209/94eb6ee6-3400-4f90-942b-5199947e9b5c)# Wordle
+# Wordle
  Wordle, the classic word-guessing game brought to your browser! Challenge your vocabulary and deduction skills in this addictive and enjoyable web-based word game. The objective is simple: guess the secret five-letter word within six attempts to win the game.
 
 # API used
@@ -7,9 +7,10 @@ URL:"https://words.dev-apis.com/word-of-the-day?random=1"
 # FrameWork used
 ### * React Js
 # ScreenShots
-![Screenshot from 2024-06-02 21-25-02](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/391207ff-29a6-4c7b-8d3c-18bde11f2e05)
-![Screenshot from 2024-06-02 21-25-58](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/887ab7aa-2bc5-4e31-abc6-42516a552b1e)
-
+![Screenshot from 2024-06-02 21-33-53](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/3bf51415-b365-4800-b8b8-12e0de03c994)
+![Screenshot from 2024-06-02 21-33-59](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/6fe80434-a8c0-4be4-9cd6-5e9e7b9b2106)
+![Screenshot from 2024-06-02 21-34-03](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/787cd0d1-2bcf-4a22-9aca-3ba79421546c)
 ### Here you can see I entered an invalid word so it flashes red
-![Screenshot from 2024-06-02 21-26-16](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/1fb1237d-a00f-410e-98f5-96664d9a950b)
-## To run the project run npm run start in the terminal
+![Screenshot from 2024-06-02 21-34-11](https://github.com/Moutasem-Ahmed-Salah/wordle/assets/125928209/9defa2be-c6a9-406c-93b0-31eb4791f9ac)
+## To run the project run npm run start in the terminal or just open the websote from vercel link given below
+
