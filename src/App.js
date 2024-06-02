@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Scoreboard from "./components/Scoreboard";
 import InfoBar from "./components/InfoBar";
@@ -14,7 +14,6 @@ const App = () => {
     const [letters, setLetters] = useState(Array(ANSWER_LENGTH * ROUNDS).fill({ letter: "", className: "" }));
     const [word, setWord] = useState("");
     const [showReplay, setShowReplay] = useState(false);
-    const inputRef = useRef(null);
 
     useEffect(() => {
         const fetchWord = async () => {
@@ -27,9 +26,7 @@ const App = () => {
         fetchWord();
     }, []);
 
-    useEffect(() => {
-        inputRef.current.focus();
-    }, [isLoading, done]);
+    console.log("word:", word);
 
     const addLetter = (letter) => {
         if (currentGuess.length < ANSWER_LENGTH) {
@@ -142,14 +139,6 @@ const App = () => {
         }
     };
 
-    const handleChange = (event) => {
-        const value = event.target.value.toUpperCase();
-        if (/^[A-Z]$/.test(value)) {
-            addLetter(value);
-        }
-        event.target.value = "";
-    };
-
     useEffect(() => {
         document.addEventListener("keydown", handleKeyPress);
         return () => {
@@ -158,7 +147,7 @@ const App = () => {
     });
 
     return (
-        <div className="App" onClick={() => inputRef.current.focus()}>
+        <div className="App">
             <header className="navbar">
                 <h1 className="brand">Wordle</h1>
             </header>
@@ -167,13 +156,6 @@ const App = () => {
             {showReplay && (
                 <button className="replay-button" onClick={() => window.location.reload()}>Play Again?</button>
             )}
-            <input
-                type="text"
-                className="hidden-input"
-                onChange={handleChange}
-                ref={inputRef}
-                autoFocus
-            />
         </div>
     );
 };
