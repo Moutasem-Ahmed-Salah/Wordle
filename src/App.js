@@ -156,6 +156,14 @@ const App = () => {
             {showReplay && (
                 <button className="replay-button" onClick={() => window.location.reload()}>Play Again?</button>
             )}
+            <input
+                type="text"
+                className="hidden-input"
+                onKeyPress={handleKeyPress}
+                onChange={(e) => addLetter(e.target.value.toUpperCase())}
+                value=""
+                autoFocus
+            />
         </div>
     );
 };

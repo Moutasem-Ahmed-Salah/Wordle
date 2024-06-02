@@ -165,3 +165,9 @@ body {
 .replay-button:hover {
   background-color: #17741a;
 }
+
+.hidden-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
